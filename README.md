@@ -8,7 +8,10 @@ This is a contextual toxicity dataset-generation pipeline: instead of judging to
 We also have a UI demo at: https://toximatics-contextual-toxicity-data-generator-fnn9mzm7bkuzmta4.streamlit.app/ 
 
 
-<img width="1446" height="337" alt="image" src="https://github.com/user-attachments/assets/78128660-486d-4b90-a0c2-90a198f04ff1" />
+<img width="1449" height="330" alt="image" src="https://github.com/user-attachments/assets/a32d05ad-4871-4b15-8279-da60a3aa1dbb" />
+
+<img width="1450" height="334" alt="image" src="https://github.com/user-attachments/assets/2946e687-349e-41de-8f55-11ce88a2d622" />
+
 
 
 

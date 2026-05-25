@@ -7,6 +7,11 @@ This is a contextual toxicity dataset-generation pipeline: instead of judging to
 
 We also have a UI demo at: https://toximatics-contextual-toxicity-data-generator-fnn9mzm7bkuzmta4.streamlit.app/ 
 
+
+<img width="1446" height="337" alt="image" src="https://github.com/user-attachments/assets/78128660-486d-4b90-a0c2-90a198f04ff1" />
+
+
+
 ## Features
 
 - Add OpenAI API key from Streamlit sidebar or `.env`

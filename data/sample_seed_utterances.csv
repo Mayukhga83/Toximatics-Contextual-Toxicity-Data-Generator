@@ -1,0 +1,11 @@
+id,utterance,original_label
+1,"You are so lucky to work from home.",neutral
+2,"Nice job taking your time.",neutral
+3,"You are very confident today.",neutral
+4,"I guess some people always need extra help.",neutral
+5,"That was brave of you to speak up.",benign
+6,"You are impossible.",toxic
+7,"You always make things interesting.",neutral
+8,"That is an unusual choice.",neutral
+9,"I wish I had your free time.",neutral
+10,"You really know how to make an entrance.",neutral

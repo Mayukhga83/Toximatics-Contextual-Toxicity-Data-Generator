@@ -1,8 +1,9 @@
 # Contextual Toxicity Data Generator
 
-A small Streamlit + CLI demo for generating context-dependent utterance-context pairs with controlled polarity.
+A Streamlit + CLI demo for generating context-dependent utterance-context pairs with controlled polarity.
 
-The idea is inspired by a contextual toxicity dataset-generation pipeline: instead of judging toxicity from an utterance alone, the demo generates a social context in which the utterance becomes toxic, benign, neutral, or ambiguous.
+The idea is inspired by the research paper Toximatics: Towards Understanding Toxicity in Real-Life Social Situations https://aclanthology.org/2024.sigdial-1.65/ 
+THis is a contextual toxicity dataset-generation pipeline: instead of judging toxicity from an utterance alone, the demo generates a social context in which the utterance becomes toxic, benign, neutral, or ambiguous.
 
 ## Features
 
@@ -66,18 +67,6 @@ pip install -r requirements.txt
 ```
 
 Create your environment file:
-
-Windows:
-
-```bash
-copy .env.example .env
-```
-
-Mac/Linux:
-
-```bash
-cp .env.example .env
-```
 
 Edit `.env`:
 

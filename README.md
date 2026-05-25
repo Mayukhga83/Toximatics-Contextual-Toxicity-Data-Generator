@@ -5,6 +5,8 @@ A Streamlit + CLI demo for generating context-dependent utterance-context pairs 
 The idea is inspired by the research paper Toximatics: Towards Understanding Toxicity in Real-Life Social Situations (https://aclanthology.org/2024.sigdial-1.65/ and https://github.com/Mayukhga83/Toximatics) 
 This is a contextual toxicity dataset-generation pipeline: instead of judging toxicity from an utterance alone, the demo generates a social context in which the utterance becomes toxic, benign, neutral, or ambiguous.
 
+We also have a UI demo at: https://toximatics-contextual-toxicity-data-generator-fnn9mzm7bkuzmta4.streamlit.app/ 
+
 ## Features
 
 - Add OpenAI API key from Streamlit sidebar or `.env`

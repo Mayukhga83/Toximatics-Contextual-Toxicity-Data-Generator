@@ -2,8 +2,8 @@
 
 A Streamlit + CLI demo for generating context-dependent utterance-context pairs with controlled polarity.
 
-The idea is inspired by the research paper Toximatics: Towards Understanding Toxicity in Real-Life Social Situations https://aclanthology.org/2024.sigdial-1.65/ 
-THis is a contextual toxicity dataset-generation pipeline: instead of judging toxicity from an utterance alone, the demo generates a social context in which the utterance becomes toxic, benign, neutral, or ambiguous.
+The idea is inspired by the research paper Toximatics: Towards Understanding Toxicity in Real-Life Social Situations (https://aclanthology.org/2024.sigdial-1.65/ and https://github.com/Mayukhga83/Toximatics) 
+This is a contextual toxicity dataset-generation pipeline: instead of judging toxicity from an utterance alone, the demo generates a social context in which the utterance becomes toxic, benign, neutral, or ambiguous.
 
 ## Features
 
@@ -197,3 +197,12 @@ python cli.py \
 - Start with small batches because each example can use two API calls: one generation call and one validation call.
 - `multistage` can use more calls because it generates an intermediate example.
 - For the strongest demo, use the same seed utterance with both `benign` and `toxic` target polarity and compare contexts.
+
+### Citation
+Please use the following to cite this work:
+```
+@inproceedings{das2024toximatics,
+  title={Toximatics: Towards Understanding Toxicity in Real-Life Social Situations},
+  author={Mayukh Das and Wolf-Tilo Balke},
+  booktitle={Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL)},
+  year={2024},

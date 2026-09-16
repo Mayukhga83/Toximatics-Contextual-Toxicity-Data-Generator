@@ -10,7 +10,7 @@ from src.pipeline import run_pipeline
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate context-dependent toxicity utterance-context pairs."
+        description="Generate context-dependent toxicity utterance-context."
     )
 
     input_group = parser.add_mutually_exclusive_group(required=True)
@@ -21,7 +21,7 @@ def parse_args() -> argparse.Namespace:
         "--utterance-column",
         type=str,
         default="utterance",
-        help="Column name containing seed utterances when using --input.",
+        help="Column name containing seed utterances when using input.",
     )
     parser.add_argument(
         "--target-polarity",
@@ -44,7 +44,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--validator-model", type=str, default=None)
 
     parser.add_argument("--no-validate", action="store_true", help="Skip validator model.")
-    parser.add_argument("--repair-failed", action="store_true", help="Repair examples that fail validation.")
+    parser.add_argument("--repair-failed", action="store_true", help="Repair examples that fail the validation.")
     parser.add_argument("--no-shuffle", action="store_true", help="Do not shuffle CSV utterances.")
 
     return parser.parse_args()

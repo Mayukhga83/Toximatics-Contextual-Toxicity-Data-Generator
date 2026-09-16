@@ -28,7 +28,7 @@ We also have a UI demo at: https://toximatics-contextual-toxicity-data-generator
 - Download CSV or JSONL
 - Run the same pipeline from the command line
 
-## Generation modes
+## Generation modes from the paper
 
 ### `direct`
 

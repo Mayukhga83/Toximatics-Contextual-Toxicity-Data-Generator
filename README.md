@@ -202,11 +202,6 @@ python cli.py \
 - `contains_slur`
 - `too_explicit`
 
-## Notes
-
-- Start with small batches because each example can use two API calls: one generation call and one validation call.
-- `multistage` can use more calls because it generates an intermediate example.
-- For the strongest demo, use the same seed utterance with both `benign` and `toxic` target polarity and compare contexts.
 
 ### Citation
 Please use the following to cite this work:

@@ -1,4 +1,4 @@
-# Contextual Toxicity Data Generator
+# LLM based Contextual Toxicity Data Generator
 
 A Streamlit + CLI demo for generating context-dependent utterance-context pairs with controlled polarity.
 
